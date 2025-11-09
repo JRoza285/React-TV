@@ -13,9 +13,9 @@ export default function EpisodeList({
       <ol>
         {episodes.map((episode) => (
           <li
-            key={episode.number}
-            onClick={() => setSelectedEpisode(episode)}
-            className={episode === selectedEpisode ? "selected" : ""}
+          key={episode.number}
+          onClick={() => setSelectedEpisode(episode)}
+          className={episode === selectedEpisode ? "selected" : ""}
           >
             {episode.title}
           </li>

@@ -1,23 +1,23 @@
 .episodes ol {
-  list-style: none;
+    list-style: none;
 }
 
 .episodes li {
-  padding: 0.5rem;
+    padding: .5rem;
 }
 
 .episodes li:hover,
 .episodes li.selected {
-  background: #333;
-  cursor: pointer;
+    background: red;
+    cursor: pointer;
 }
 
 .episodes li:not(:last-child) {
-  border-bottom: 1px solid #333;
+    border-bottom: 1px solid black;
 }
 
 .episode-details {
-  display: flex;
-  flex-direction: column;
-  gap: 1ch;
+    display: flex;
+    flex-direction: column;
+    gap: 1ch;
 }

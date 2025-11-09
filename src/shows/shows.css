@@ -1,28 +1,29 @@
 .shows {
-  display: flex;
+    display: flex;
 }
 
 .show {
-  padding: 0 1ch;
+    padding: 0 1ch;
 }
 
 .show:not(:last-child) {
-  border-right: 1px solid white;
+    border-right: 1px solid white;
 }
 
 .show:hover,
 .show.selected {
-  cursor: pointer;
-  text-decoration: underline;
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 .show-details {
-  display: grid;
-  gap: 1rem;
+    display: grid;
+    gap: 1rem;
 }
 
 @media (width >= 500px) {
-  .show-details {
-    grid-template-columns: minmax(30ch, auto) 1fr;
-  }
+    .show-details {
+        grid-template-columns: minmax(30ch, auto) 1fr;
+    }
 }
+
